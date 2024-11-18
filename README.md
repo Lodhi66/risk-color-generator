@@ -1,12 +1,13 @@
 # risk-color-generator
 
-This microservice is fully functioning and takes a POST request, which contains a JSON like this:
+This microservice is fully functioning and uses Flask to take a POST request, which contains
+a JSON like this:
 `{"risk": 45}`
 
 The response will contain the risk number and a color corresponding to the risk number. Numbers
 may be ints or floats and can be between 0 and 100.
 
-## Request data using Flask (example code)
+## Request data (example code)
 
 ```
 import requests
