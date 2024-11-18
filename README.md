@@ -30,3 +30,4 @@ def send_request(risk):
 
 # Sequence diagram
 
+![Sequence diagram of microservice](./diagram.png)
